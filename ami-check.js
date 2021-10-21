@@ -28,19 +28,11 @@ function isFactor(factor, input){
 	return(input % factor == 0);
 }
 
-//bool,  check if number is even using remainder
-function isOdd(num){
-	return (num % 2 != 0);
-}
 
 //alters passed array and returns sum of factors
 function factor(num, array){
-	var inc = 1;
 	var sum = 0;
-	if (isOdd) { //timesaver
-		inc = 2;
-	}
-	for (var fac = 1; fac < num; fac += inc){
+	for (var fac = 1; fac < num; fac ++){
 		if (isFactor(fac, num)){
 			array.push(fac);
 			sum += fac;
