@@ -14,7 +14,6 @@ function main(){
 	inputTwo = document.getElementById('input2').value;
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
-	finalDisplay();
 }
 
 /* FUNCTIONS */
