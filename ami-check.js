@@ -24,7 +24,7 @@ function isFactor(factor, input){
 	return(input % factor == 0);
 }
 
-//bool, check if number is even using remainder
+//bool,  check if number is even using remainder
 function isOdd(num){
 	return (num % 2 != 0);
 }
