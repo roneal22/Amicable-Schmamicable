@@ -8,6 +8,7 @@ var factorOne = [];
 var factorTwo = [];
 var sumOne;
 var sumTwo;
+var result = document.getElementById("result");
 
 function main(){
 	inputOne = document.getElementById('input1').value;
@@ -17,7 +18,7 @@ function main(){
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
 	console.log("factored");
-	finalDisplay();
+	result.innerHTML = genText();
 }
 
 /* FUNCTIONS */
@@ -67,8 +68,6 @@ function genText(){
 }
 
 function finalDisplay(){
-	//alert("checked");
-	document.write(genText());
 	alert("First factors: " + factorOne + 
 "\n Second factors: " + factorTwo); 
 }
