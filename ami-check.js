@@ -62,3 +62,9 @@ function genText(){
 
 	return response;
 }
+
+function finalDisplay(){
+	document.write(genText());
+	alert("First factors: " + factorOne + 
+"\n Second factors: " + factorTwo); 
+}

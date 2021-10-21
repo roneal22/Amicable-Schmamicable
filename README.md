@@ -17,8 +17,8 @@ Get two values from the user to check if they are amicable.  To get the numbers,
 
 Questions
 Identify three differences and three similarities between C++ and Javascript
-Differences: variable types, auto arraylists, 
-Similarities: comment format, Object-Oriented Programming languages
+Differences: variable types, auto arraylists, don't need to declare return types
+Similarities: comment format, Object-Oriented Programming languages, 
 
 
 What is your opinion of Javascript as a programming language?
