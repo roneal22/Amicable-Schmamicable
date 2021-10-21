@@ -15,6 +15,7 @@ function main(){
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
 	alert("checked");
+	finalDisplay();
 }
 
 /* FUNCTIONS */
