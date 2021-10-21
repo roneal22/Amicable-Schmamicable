@@ -54,7 +54,7 @@ function isAmicable(i1,i2, s1, s2){
 function genText(){
 	var response;
 	response = "The numbers: " + inputOne + " and " + inputTwo
-+ "are ";
++ " are ";
 	if(!isAmicable(inputOne, inputTwo, sumOne, sumTwo)){
 		response += "not ";
 	}
@@ -64,6 +64,7 @@ function genText(){
 }
 
 function finalDisplay(){
+	delay(1000);
 	document.write(genText());
 	alert("First factors: " + factorOne + 
 "\n Second factors: " + factorTwo); 
