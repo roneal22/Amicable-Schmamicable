@@ -8,7 +8,6 @@ var factorOne = [];
 var factorTwo = [];
 var sumOne;
 var sumTwo;
-var ready = false;
 
 function main(){
 	inputOne = document.getElementById('input1').value;
@@ -18,7 +17,7 @@ function main(){
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
 	console.log("factored");
-	ready = true;
+	finalDisplay();
 }
 
 /* FUNCTIONS */
