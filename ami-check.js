@@ -14,7 +14,6 @@ function main(){
 	inputTwo = document.getElementById('input2').value;
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
-	alert("checked");
 	finalDisplay();
 }
 
@@ -65,7 +64,7 @@ function genText(){
 }
 
 function finalDisplay(){
-	delay(1000);
+	alert("checked");
 	document.write(genText());
 	alert("First factors: " + factorOne + 
 "\n Second factors: " + factorTwo); 
