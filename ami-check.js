@@ -12,11 +12,13 @@ var ready = false;
 
 function main(){
 	inputOne = document.getElementById('input1').value;
+	console.log("input1");
 	inputTwo = document.getElementById('input2').value;
+	console.log("input2");
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
-	ready = true;
 	console.log("factored");
+	ready = true;
 }
 
 /* FUNCTIONS */
@@ -54,7 +56,7 @@ function isAmicable(i1,i2, s1, s2){
 }
 
 function genText(){
-	while(!ready) {setTimeout(100)};
+	if(!ready) {return "nope"};
 	var response;
 	response = "The numbers: " + inputOne + " and " + inputTwo
 + " are ";
