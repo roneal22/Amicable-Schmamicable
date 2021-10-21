@@ -8,12 +8,14 @@ var factorOne = [];
 var factorTwo = [];
 var sumOne;
 var sumTwo;
+var ready = false;
 
 function main(){
 	inputOne = document.getElementById('input1').value;
 	inputTwo = document.getElementById('input2').value;
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
+	ready = true;
 	console.log("factored");
 }
 
@@ -52,6 +54,7 @@ function isAmicable(i1,i2, s1, s2){
 }
 
 function genText(){
+	while(!ready);
 	var response;
 	response = "The numbers: " + inputOne + " and " + inputTwo
 + " are ";
