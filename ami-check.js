@@ -14,6 +14,7 @@ function main(){
 	inputTwo = document.getElementById('input2').value;
 	sumOne = factor(inputOne, factorOne);
 	sumTwo = factor(inputTwo, factorTwo);
+	console.log("factored");
 }
 
 /* FUNCTIONS */
@@ -63,7 +64,7 @@ function genText(){
 }
 
 function finalDisplay(){
-	alert("checked");
+	//alert("checked");
 	document.write(genText());
 	alert("First factors: " + factorOne + 
 "\n Second factors: " + factorTwo); 
