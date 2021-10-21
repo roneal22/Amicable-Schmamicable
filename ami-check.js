@@ -55,7 +55,6 @@ function isAmicable(i1,i2, s1, s2){
 }
 
 function genText(){
-	if(!ready) {return "nope"};
 	var response;
 	response = "The numbers: " + inputOne + " and " + inputTwo
 + " are ";
